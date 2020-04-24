@@ -1,0 +1,80 @@
+/* .Add-ons {} */
+.Add-ons__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.Add-ons .Add-on {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	line-height: 1;
+	margin: 10px;
+	min-width: 255px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+@media screen and (min-width: 580px ) {
+	.Add-ons .Add-on {
+		width: 255px;
+	}
+}
+.Add-ons .Add-on__inside {
+	font-size: 13px;
+	line-height: 1.4;
+	margin: 11px 0;
+	position: relative;
+	padding: 0 12px 12px;
+}
+.Add-ons .Add-on__inside .Add-on__list-header > a,
+.Add-ons .Add-on__inside .Add-on__list-header > span {
+	background: #f8f9f9;
+	border-bottom: 1px solid #ccd0d4;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -13px -12px 10px;
+	padding: 12px 12px 10px;
+	text-decoration: none;
+}
+.Add-ons .Add-on__inside .Add-on__list-header > span {
+	color: #5b6983;
+}
+.Add-on__list-header > a:before,
+.Add-on__list-header > span:before {
+	content: '\f106';
+	display: inline-block;
+	font-family: 'dashicons';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	height: 16px;
+	line-height: 1;
+	margin: 0 4px 0 0;
+	padding: 3px 0;
+	speak: none;
+	text-align: center;
+	text-decoration: inherit;
+	text-rendering: auto;
+	text-transform: none;
+	transition: all .1s ease-in-out;
+	vertical-align: top;
+	width: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.Add-on__list-header > span:before {
+	content: '\f108';
+}
+.Add-ons .Add-on__inside .Add-on__list-header li,
+.Add-ons .Add-on__inside .Add-on__list-header ~ li {
+	margin: 0;
+	padding: 0;
+}
+.Add-ons .Add-on__inside .Add-on__list-header li a,
+.Add-ons .Add-on__inside .Add-on__list-header ~ li a {
+	display: inline-block;
+	padding: 5px 0;
+	text-decoration: none; /* Sorry, Core does that. */
+}
