@@ -22,7 +22,7 @@ Opionated, heavily simplified, customised admin menu.
 
 ## 🥁 What is this?
 
-<blockquote><p>“Short term memory (or attention span) is limited to seven chunks of information.”</p><cite><a href="https://www.instructionaldesign.org/theories/information-processing/">Information Processing Theory according to George A. Miller</a></cite></blockquote>
+<blockquote><p>“Short term memory (or attention span) is limited to seven chunks of information.”</p><cite>– <a href="https://www.instructionaldesign.org/theories/information-processing/">Information Processing Theory according to George A. Miller</a></cite></blockquote>
 
 ✅ This plugin minimises the WordPress admin menu into five (5) top-level items.<br>
 ✅ It also remixes submenus and adds some former top-level items to them.<br>
