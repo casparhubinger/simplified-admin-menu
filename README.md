@@ -5,7 +5,7 @@ Opionated, heavily simplified, customised admin menu.
 
 |                    |                                                         |
 |--------------------|---------------------------------------------------------|
-| **Author:**        | @casparhubinger                                         |
+| **Author:**        | [@casparhubinger](https://github.com/casparhubinger/)   |
 | **Donate link:**   | https://paypal.me/caspar                                |
 | Tags:              | `admin menu`, `wp-admin`, `minimalism`                  |
 | Requires at least: | 5.3.2                                                   |
