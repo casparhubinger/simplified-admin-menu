@@ -2,7 +2,7 @@
 /**
  * Plugin Name: _Glück Admin Menu
  * Description: Opionated, heavily simplified, customised admin menu.
- * Version:     0.1.1
+ * Version:     0.1.2
  * Author:      Caspar Hübinger
  * Author URI:  https://caspar.blog
  * Text Domain: glck-admin-menu
@@ -455,12 +455,12 @@ EOT;
 	}
 
 	/**
-	 * Checks is any top-level third-party menus have been identified.
+	 * Checks if any third-party menus have been identified.
 	 *
-	 * @return bool True if third-party menus exist, else false
+	 * @return bool True if third-party (sub)menus exist, else false
 	 */
 	public function has_third_party_menus() : bool {
-		return ! empty( $this->thirdparty_menu );
+		return ! empty( $this->thirdparty_menu ) || ! empty( $this->thirdparty_submenu );
 	}
 
 	/**
