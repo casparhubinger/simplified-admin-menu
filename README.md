@@ -32,32 +32,32 @@ Opionated, heavily simplified, customised admin menu.
 
 - **Dasboard**
 - **Content** – points to _Posts_
-   - _Posts_
+   - _Posts_ – formerly top-level page
    - _Categories_
    - _Tags_
-   - _Comments_ – if enabled
-   - _Pages_
-   - _Media_
+   - _Comments_ – if enabled, formerly top-level page
+   - _Pages_ – formerly top-level page
+   - _Media_ – formerly top-level page
 - **Design** – formerly _Apperance_ pointing to _Themes_, now points to _Customizer_
-   - Customizer – this is very you change your theme if you need to
-   - Theme Editor
-   - Plugin Editor
+   - _Customizer_ – this is very you change your theme if you need to
+   - _Theme Editor_
+   - _Plugin Editor_ – formerly under _Plugins_
 - **Tools** – formerly _All Tools_, now points to _Site Health_
-   - Site Health
-   - Export Content – formerly _Export_
-   - Export Personal Data
-   - Erase Personal Data
+   - _Site Health_
+   - _Export Content_ – formerly _Export_
+   - _Export Personal Data_
+   - _Erase Personal Data_
 - **Setup** - formerly _Settings_, still points to _General Settings_
-   - Writing
-   - Reading
-   - Discussion
-   - Media
-   - Permalinks
-   - Privacy
-   - **Plugins** – formerly top-level page
-   - **Plugin Settings** – custom page, bundles all third-party plugin settings
-   - **Users** – formerly top-level page
-   - **Updates** – formerly under _Dashboard_
+   - _Writing_
+   - _Reading_
+   - _Discussion_
+   - _Media_
+   - _Permalinks_
+   - _Privacy_
+   - _Plugins_ – formerly top-level page
+   - _Plugin Settings_ – custom page, bundles all third-party plugin settings
+   - _Users_ – formerly top-level page
+   - _Updates_ – formerly under _Dashboard_
 
 ## 💡 Installation
 
