@@ -28,7 +28,7 @@ Opionated, heavily simplified, customised admin menu.
 
 ✅ It remixes submenus and adds some former top-level items to them.
 
-✅ Finally, it bundles all third-party settings pages on a dedicated submenu page.
+✅ Finally, it bundles all third-party settings pages on a dedicated submenu page. No more plugins in the top level.
 
 🚫 This is **not** an admin menu editor of any sorts.
 
