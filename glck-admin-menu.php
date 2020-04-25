@@ -153,6 +153,10 @@ EOT;
 		$this->menu = $this->slice_menus( $GLOBALS['menu'] );
 		$this->submenu = $this->slice_submenus( $GLOBALS['submenu'] );
 
+		if ( 'plugins.php' === $GLOBALS['pagenow'] && $this->has_third_party_menus() ) {
+			add_action( 'pre_current_active_plugins', [ $this, 'add_notice_plugin_page' ], 0 );
+		}
+
 		return true;
 	}
 
@@ -173,10 +177,6 @@ EOT;
 		}
 
 		$this->thirdparty_menu = $thirdparty_menu;
-
-		if ( 'plugins.php' === $GLOBALS['pagenow'] && ! empty( $thirdparty_menu ) ) {
-			add_action( 'pre_current_active_plugins', [ $this, 'add_notice_plugin_page' ], 0 );
-		}
 
 		return $menu;
 	}
