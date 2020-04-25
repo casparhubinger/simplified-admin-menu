@@ -24,9 +24,17 @@ Opionated, heavily simplified, customised admin menu.
 
 <blockquote><p>“Short term memory (or attention span) is limited to seven chunks of information.”</p><cite>– <a href="https://www.instructionaldesign.org/theories/information-processing/">Information Processing Theory according to George A. Miller</a></cite></blockquote>
 
-✅ This plugin minimises the WordPress admin menu into five (5) top-level items.<br>
-✅ It also remixes submenus and adds some former top-level items to them.<br>
-✅ On top of it all, it bundles all third-party settings pages on a dedicated custom page that is accessible via the _Setup_ top-level menu item.
+✅ This plugin minimises the WordPress admin menu to five (5) top-level items.
+
+✅ It remixes submenus and adds some former top-level items to them.
+
+✅ Finally, it bundles all third-party settings pages on a dedicated submenu page.
+
+🚫 This is **not** an admin menu editor of any sorts.
+
+🚫 There are **no options** for you to customise what goes where.
+
+🎳 You’re free to fork this, clone it, hack it to pieces, make your own out of it.
 
 ### Minimised admin menu
 
