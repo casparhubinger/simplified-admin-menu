@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: _Glück | Admin Menu
+ * Plugin Name: _Glück Admin Menu
  * Description: Opionated, heavily simplified, customised admin menu.
  * Version:     0.1.1
  * Author:      Caspar Hübinger
