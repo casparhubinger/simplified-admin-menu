@@ -24,44 +24,54 @@ Opionated, heavily simplified, customised admin menu.
 
 <blockquote><p>“Short term memory (or attention span) is limited to seven chunks of information.”</p><cite>– <a href="https://www.instructionaldesign.org/theories/information-processing/">Information Processing Theory according to George A. Miller</a></cite></blockquote>
 
-✅ This plugin minimises the WordPress admin menu into five (5) top-level items.<br>
-✅ It also remixes submenus and adds some former top-level items to them.<br>
-✅ On top of it all, it bundles all third-party settings pages on a dedicated custom page that is accessible via the _Setup_ top-level menu item.
+✅ This plugin minimises the WordPress admin menu to five (5) top-level items.
+
+✅ It remixes submenus and adds some former top-level items to them.
+
+✅ Finally, it bundles all third-party settings pages on a dedicated submenu page. No more plugins in the top level.
+
+🚫 This is **not** an admin menu editor of any sorts.
+
+🚫 There are **no options** for you to customise what goes where.
+
+🎳 You’re free to fork this, clone it, hack it to pieces, make your own out of it.
 
 ### Minimised admin menu
 
 - **Dasboard**
 - **Content** – points to _Posts_
-   - _Posts_
+   - _Posts_ – formerly top-level page
    - _Categories_
    - _Tags_
-   - _Comments_ – if enabled
-   - _Pages_
-   - _Media_
+   - _Comments_ – if enabled, formerly top-level page
+   - _Pages_ – formerly top-level page
+   - _Media_ – formerly top-level page
 - **Design** – formerly _Apperance_ pointing to _Themes_, now points to _Customizer_
-   - Customizer – this is very you change your theme if you need to
-   - Theme Editor
-   - Plugin Editor
+   - _Customizer_ – this is very you change your theme if you need to
+   - _Theme Editor_
+   - _Plugin Editor_ – formerly under _Plugins_
 - **Tools** – formerly _All Tools_, now points to _Site Health_
-   - Site Health
-   - Export Content – formerly _Export_
-   - Export Personal Data
-   - Erase Personal Data
+   - _Site Health_
+   - _Export Content_ – formerly _Export_
+   - _Export Personal Data_
+   - _Erase Personal Data_
 - **Setup** - formerly _Settings_, still points to _General Settings_
-   - Writing
-   - Reading
-   - Discussion
-   - Media
-   - Permalinks
-   - Privacy
-   - **Plugins** – formerly top-level page
-   - **Plugin Settings** – custom page, bundles all third-party plugin settings
-   - **Users** – formerly top-level page
-   - **Updates** – formerly under _Dashboard_
+   - _Writing_
+   - _Reading_
+   - _Discussion_
+   - _Media_
+   - _Permalinks_
+   - _Privacy_
+   - _Plugins_ – formerly top-level page
+   - _Plugin Settings_ – custom page, bundles all third-party plugin settings
+   - _Users_ – formerly top-level page
+   - _Updates_ – formerly under _Dashboard_
 
 ## 💡 Installation
 
 🚫 **DO NOT INSTALL THIS without running it on a testing site first!**
+
+Clone this repository to your local machine, or [download the latest release .zip](https://github.com/casparhubinger/glck-admin-menu/releases/). 
 
 You can install the .zip file of this repository like any other plugin via _wp-admin › Plugins › Add New_.
 
