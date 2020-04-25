@@ -63,6 +63,8 @@ Opionated, heavily simplified, customised admin menu.
 
 🚫 **DO NOT INSTALL THIS without running it on a testing site first!**
 
+Clone this repository to your local machine, or [download the latest release .zip](https://github.com/casparhubinger/glck-admin-menu/releases/). 
+
 You can install the .zip file of this repository like any other plugin via _wp-admin › Plugins › Add New_.
 
 If you don’t know what a .zip file is, or how to upload one to WordPress, make sure you have a WordPress-savvy person nearby before you proceed, or you might end up breaking your website.
