@@ -79,7 +79,7 @@ If you don’t know what a .zip file is, or how to upload one to WordPress, make
 
 ###  Will this be available via WordPress.org?
 
-No plans in that direction.
+No plans in that direction, but you can use the [GitHub Updater plugin](https://github.com/afragen/github-updater/).
 
 ## 🌈 Translations
 
