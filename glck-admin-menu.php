@@ -1,13 +1,14 @@
 <?php
 /**
- * Plugin Name: _Glück Admin Menu
- * Description: Opionated, heavily simplified, customised admin menu.
- * Version:     0.1.2
- * Author:      Caspar Hübinger
- * Author URI:  https://caspar.blog
- * Text Domain: glck-admin-menu
- * License:     GNU General Public License v3
- * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Plugin Name:       _Glück Admin Menu
+ * Description:       Opionated, heavily simplified, customised admin menu.
+ * Version:           0.1.3
+ * Author:            Caspar Hübinger
+ * Author URI:        https://caspar.blog
+ * GitHub Plugin URI: https://github.com/casparhubinger/glck-admin-menu
+ * Text Domain:       glck-admin-menu
+ * License:           GNU General Public License v3
+ * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
  *
  * Copyright (C) 2020  Caspar Hübinger
  *
