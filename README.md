@@ -9,7 +9,7 @@ Opionated, heavily simplified, customised admin menu.
 | **Donate link:**   | https://paypal.me/caspar                                |
 | Tags:              | `admin menu`, `wp-admin`, `minimalism`                  |
 | Requires at least: | 5.3.2                                                   |
-| Tested up to:      | 5.4                                                     |
+| Tested up to:      | 5.4.1                                                   |
 | Requires PHP:      | 7.1.0                                                   |
 | License:           | GNU General Public License v3                           |
 | License URI:       | https://www.gnu.org/licenses/gpl-3.0.html               |
