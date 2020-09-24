@@ -79,6 +79,7 @@ No plans in that direction, but you can use the [GitHub Updater plugin](https://
 This plugin relies on core strings where possible, but it also does introduce a few strings of its own. These are translation-ready, a text domain gets loaded, and a .pot file is provided.
 
 If translations are important to you, feel free to send a pull request with a .po and .mo file in your language.<br>
+
 [Read more about translating WordPress plugins](https://developer.wordpress.org/apis/handbook/internationalization/localization/)
 
 ## 🛎 Support
