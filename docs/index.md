@@ -1,12 +1,7 @@
-# Admin Menu
-
-Opionated, heavily simplified, customised admin menu.
-
-
 |                    |                                                         |
 |--------------------|---------------------------------------------------------|
 | **Author:**        | [@casparhubinger](https://github.com/casparhubinger/)   |
-| **Donate link:**   | https://paypal.me/caspar                                |
+| **Donate link:**   | [https://paypal.me/caspar](https://paypal.me/caspar)    |
 | Tags:              | `admin menu`, `wp-admin`, `minimalism`                  |
 | Requires at least: | 5.3.2                                                   |
 | Tested up to:      | 5.4.1                                                   |
@@ -16,9 +11,7 @@ Opionated, heavily simplified, customised admin menu.
 
 ---
 
-![Settings page bundling all third-party plugin menu pages](/docs/screenshot.png)
-
-☝️ _Note: If you look closely, you’ll notice a custom admin colour scheme in the screenshot. It is not packaged with this plugin as it is part of [Altis, an open-source WordPress digital experience platform](https://www.altis-dxp.com/docs/)._
+![Settings page bundling all third-party plugin menu pages](screenshot.png)
 
 ## 🥁 What is this?
 

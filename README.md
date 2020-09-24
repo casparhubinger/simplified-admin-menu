@@ -18,8 +18,6 @@ Opionated, heavily simplified, customised admin menu.
 
 ![Settings page bundling all third-party plugin menu pages](/docs/screenshot.png)
 
-☝️ _Note: If you look closely, you’ll notice a custom admin colour scheme in the screenshot. It is not packaged with this plugin as it is part of [Altis, an open-source WordPress digital experience platform](https://www.altis-dxp.com/docs/)._
-
 ## 🥁 What is this?
 
 <blockquote><p>“Short term memory (or attention span) is limited to seven chunks of information.”</p><cite>– <a href="https://www.instructionaldesign.org/theories/information-processing/">Information Processing Theory according to George A. Miller</a></cite></blockquote>
