@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:       _Glück Admin Menu
+ * Plugin Name:       _AdminMenu
  * Description:       Opionated, heavily simplified, customised admin menu.
- * Version:           0.1.3
+ * Version:           0.1.4
  * Author:            Caspar Hübinger
  * Author URI:        https://caspar.blog
  * GitHub Plugin URI: https://github.com/casparhubinger/glck-admin-menu
