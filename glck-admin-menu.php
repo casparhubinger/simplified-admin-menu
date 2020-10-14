@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       _AdminMenu
  * Description:       Opionated, heavily simplified, customised admin menu.
- * Version:           0.1.4
+ * Version:           0.1.5
  * Author:            Caspar Hübinger
  * Author URI:        https://caspar.blog
  * GitHub Plugin URI: https://github.com/casparhubinger/glck-admin-menu
@@ -390,7 +390,13 @@ EOT;
 		array_values( $submenu[ $menu[2][2] ] );
 
 		// 3. Add Pages, Comments, and Media.
-		if ( 'open' === get_option( 'default_comment_status' ) ) {
+		$maybe_comments_open = get_option( 'default_comment_status' );
+		$maybe_comment_exists = get_comments([
+			'count' => true,
+			'number' => 1
+		] );
+
+		if ( 'open' === $maybe_comments_open || 1 === $maybe_comment_exists ) {
 			$submenu[ $menu[2][2] ][] = $s['comments'];
 		}
 		$submenu[ $menu[2][2] ][] = $s['pages'];
