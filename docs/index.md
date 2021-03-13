@@ -1,32 +1,32 @@
+# _AdminMenu
+
+Opionated, heavily simplified, customised admin menu.
+
+
 |                    |                                                         |
 |--------------------|---------------------------------------------------------|
-| **Author:**        | [@casparhubinger](https://github.com/casparhubinger/)   |
-| **Donate link:**   | [https://paypal.me/caspar](https://paypal.me/caspar)    |
+| Author:            | [@casparhubinger](https://github.com/casparhubinger/)   |
 | Tags:              | `admin menu`, `wp-admin`, `minimalism`                  |
 | Requires at least: | 5.3.2                                                   |
-| Tested up to:      | 5.4.1                                                   |
+| Tested up to:      | 5.7.0                                                   |
 | Requires PHP:      | 7.1.0                                                   |
 | License:           | GNU General Public License v3                           |
 | License URI:       | https://www.gnu.org/licenses/gpl-3.0.html               |
+| Donate link:       | https://paypal.me/caspar                                |
 
 ---
 
-![Settings page bundling all third-party plugin menu pages](screenshot.png)
+![Settings page bundling all third-party plugin menu pages](/docs/screenshot.png)
 
 ## 🥁 What is this?
 
-<blockquote><p>“Short term memory (or attention span) is limited to seven chunks of information.”</p><cite>– <a href="https://www.instructionaldesign.org/theories/information-processing/">Information Processing Theory according to George A. Miller</a></cite></blockquote>
+**In short: a prototype.**
 
-✅ This plugin minimises the WordPress admin menu to five (5) top-level items.
-
-✅ It remixes submenus and adds some former top-level items to them.
-
-✅ Finally, it bundles all third-party settings pages on a dedicated submenu page. No more plugins in the top level.
-
-🚫 This is **not** an admin menu editor of any sorts.
-
-🚫 There are **no options** for you to customise what goes where.
-
+✅ This plugin minimises the WordPress admin menu to five (5) top-level items.<br>
+✅ It remixes submenus and adds some former top-level items to them.<br>
+✅ Finally, it bundles all third-party settings pages on a dedicated submenu page. No more plugins in the top level.<br>
+🚫 This is **not** an admin menu editor of any sorts.<br>
+🚫 There are **no options** for you to customise what goes where.<br>
 🎳 You’re free to fork this, clone it, hack it to pieces, make your own out of it.
 
 ### Minimised admin menu
@@ -62,17 +62,21 @@
 
 ## 💡 Installation
 
-🚫 **DO NOT INSTALL THIS without running it on a testing site first!**
-
-Clone this repository to your local machine, or [download the latest release](https://github.com/casparhubinger/simplified-admin-menu/releases/latest).
-
-You can install the .zip file like any other plugin via _wp-admin › Plugins › Add New_.
+- Clone this repository to your local machine, or [download the latest release](https://github.com/casparhubinger/simplified-admin-menu/releases/latest).
+- You can install the .zip file like any other plugin via _wp-admin › Plugins › Add New_.
 
 If you don’t know what a .zip file is, or how to upload one to WordPress, make sure you have a WordPress-savvy person nearby before you proceed, or you might end up breaking your website.
 
 ###  Will this be available via WordPress.org?
 
 No plans in that direction, but you can use the [GitHub Updater plugin](https://github.com/afragen/github-updater/).
+
+### Will it work with…?
+
+It will work with a lot of (if not most) plugins and themes, but the question is: will it be pratical?
+
+- If you run a simple blog or small business site without a lot of extra functionality, this plugin will probably blend in seamlessly with your setup.
+- If you run a WooCommerce shop, or a site with a bunch of custom post types, your site will still work with this plugin, but you’ll find your custom post types (or WooCommerce orders) in the _Setup_ menu under _Plugin Settings_. You’ll probably don’t want that.
 
 ## 🌈 Translations
 
@@ -84,8 +88,8 @@ If translations are important to you, feel free to send a pull request with a .p
 
 ## 🛎 Support
 
-None provided, but if you run into a glitch with another plugin, feel free to open an issue!
+None provided, but if you run into a glitch with another plugin, an issue is appreciated.
 
-## 💸 You’re welcome!
+---
 
-If you include this plugin into your client projects, please do feel absolutely free to [send me money](https://paypal.me/caspar)!
+<blockquote><p>“Short term memory (or attention span) is limited to seven chunks of information.”</p><cite>– <a href="https://www.instructionaldesign.org/theories/information-processing/">Information Processing Theory according to George A. Miller</a></cite></blockquote>
