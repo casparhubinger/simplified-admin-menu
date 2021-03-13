@@ -2,11 +2,11 @@
 /**
  * Plugin Name:       _AdminMenu
  * Description:       Opionated, heavily simplified, customised admin menu.
- * Version:           0.1.5
+ * Version:           0.1.6
  * Author:            Caspar Hübinger
  * Author URI:        https://caspar.blog
- * GitHub Plugin URI: https://github.com/casparhubinger/glck-admin-menu
- * Text Domain:       glck-admin-menu
+ * GitHub Plugin URI: https://github.com/casparhubinger/simplified-admin-menu
+ * Text Domain:       simplified-admin-menu
  * License:           GNU General Public License v3
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -46,7 +46,7 @@ add_action( 'init', function() {
 		return false;
 	}
 
-	load_plugin_textdomain( 'glck-admin-menu',
+	load_plugin_textdomain( 'simplified-admin-menu',
 		false,
 		dirname( plugin_basename( __FILE__ ) ) . '/languages'
 	);
@@ -121,7 +121,7 @@ class The_Menu {
 	 * @return bool Always true
 	 */
 	public function add_notice_plugin_page() : bool {
-		$text = sprintf( __( 'Looking for plugin settings? %1$sGo to Plugin Settings%2$s', 'glck-admin-menu' ),
+		$text = sprintf( __( 'Looking for plugin settings? %1$sGo to Plugin Settings%2$s', 'simplified-admin-menu' ),
 			'<a href="' . add_query_arg( 'page', 'wonderland', admin_url( 'options-general.php' ) ) . '">',
 			'</a>'
 		);
@@ -238,13 +238,13 @@ EOT;
 		];
 
 		// Adjust some top-level menu item titles, icons and links.
-		$m_new['posts'][0]    = __( 'Content', 'glck-admin-menu' ) . $this->indicator_comments_mod(); // 'Pages' → 'Content'
+		$m_new['posts'][0]    = __( 'Content', 'simplified-admin-menu' ) . $this->indicator_comments_mod(); // 'Pages' → 'Content'
 		$m_new['posts'][6]    = 'dashicons-edit';        // Content icon
-		$m_new['design'][0]   = __( 'Design', 'glck-admin-menu' );  // 'Appearance' → 'Design'
+		$m_new['design'][0]   = __( 'Design', 'simplified-admin-menu' );  // 'Appearance' → 'Design'
 		$m_new['design'][2]   = $s['themes.php'][6][2];  // Design link: Customizer
 		$m_new['design'][6]   = 'dashicons-welcome-widgets-menus'; // Design icon
 		$m_new['tools'][2]    = $s['tools.php'][20][2];  // Tools link: Site Health
-		$m_new['settings'][0] = __( 'Setup', 'glck-admin-menu' ) . $this->indicator_updates();   // 'Settings' → 'Setup'
+		$m_new['settings'][0] = __( 'Setup', 'simplified-admin-menu' ) . $this->indicator_updates();   // 'Settings' → 'Setup'
 
 		return $m_new;
 	}
@@ -320,7 +320,7 @@ EOT;
 		$s_new['media'][0]     = __( 'Media' );
 		$s_new['customize'][0] = __( 'Customizer' );
 		/* translators: menu item text replacement for core Export menu item */
-		$s_new['tools-export-content'][0]   = __( 'Export Content', 'glck-admin-menu' );
+		$s_new['tools-export-content'][0]   = __( 'Export Content', 'simplified-admin-menu' );
 		$s_new['plugins'][0]   = __( 'Plugins' );
 		$s_new['users'][0]     = __( 'Users' );
 
@@ -482,8 +482,8 @@ EOT;
 
 		add_submenu_page(
 			'options-general.php',
-			__( 'Plugin Settings', 'glck-admin-menu' ),
-			__( 'Plugin Settings', 'glck-admin-menu' ),
+			__( 'Plugin Settings', 'simplified-admin-menu' ),
+			__( 'Plugin Settings', 'simplified-admin-menu' ),
 			'delete_plugins',
 			'wonderland',
 			[ $this, 'settings_page' ],
@@ -502,7 +502,7 @@ EOT;
 	public function settings_page() : bool {
 
 		// ‘Intelligently’ decides to enqueue or to print the CSS file.
-		wp_admin_css( 'glck-admin-menu' );
+		wp_admin_css( 'simplified-admin-menu' );
 
 		$title = get_admin_page_title();
 
@@ -539,7 +539,7 @@ EOT;
 			$settings_box .= '<div class="Add-on"><div class="Add-on__inside">';
 			$settings_box .=   '<ul>';
 			/* translators: heading for list of various third-party settings pages  */
-			$settings_box .=   sprintf( '<li class="Add-on__list-header"><span>%s</span></li>', esc_html__( 'Plugin Settings', 'glck-admin-menu' ) );
+			$settings_box .=   sprintf( '<li class="Add-on__list-header"><span>%s</span></li>', esc_html__( 'Plugin Settings', 'simplified-admin-menu' ) );
 			$settings_box .=     $settings_menu;
 			$settings_box .=   '</ul>';
 			$settings_box .= '</div></div>';
@@ -549,7 +549,7 @@ EOT;
 		}
 
 		/* translators: link to Plugins page; 1 = opening link tag, 2 = closing link tag */
-		$description = sprintf( __( 'Some of the %1$splugins%2$s you’ve activated bring their own settings. That’s what these are.', 'glck-admin-menu' ),
+		$description = sprintf( __( 'Some of the %1$splugins%2$s you’ve activated bring their own settings. That’s what these are.', 'simplified-admin-menu' ),
 			'<a href="' . add_query_arg( 'plugin_status', 'active', admin_url( 'plugins.php' ) ) . '">',
 			'</a>'
 		);
@@ -595,7 +595,7 @@ EOT;
 		$submenu_list_html = '';
 
 		// Looking at you, Jetpack.
-		$empty_submenu_list_html = __( 'No entries (yet). Try clicking on the link above, perhaps this plugin needs to be set up properly before menu items appear here.', 'glck-admin-menu' );
+		$empty_submenu_list_html = __( 'No entries (yet). Try clicking on the link above, perhaps this plugin needs to be set up properly before menu items appear here.', 'simplified-admin-menu' );
 
 		$submenus = $this->get_third_party_submenu_page_link_data();
 		$submenu = isset( $submenus[ $menu_slug ] ) ? $submenus[ $menu_slug ] : null;
@@ -604,7 +604,7 @@ EOT;
 			foreach ( $submenu as $key => $submenu_data ) {
 				$submenu_list_html .= sprintf( '<li><a href="%1$s">%2$s</a></li>',
 					$submenu_data['url'],
-					$submenu_data['text']
+					preg_replace('@<(\w+)\b.*?>.*?</\1>@si', '', $submenu_data['text'] )
 				);
 			}
 		}
@@ -612,7 +612,7 @@ EOT;
 		if ( $menu ) {
 			$menu_list_html .= sprintf( '<li class="Add-on__list-header"><a href="%1$s">%2$s</a>%3$s</li>',
 				$menu['url'],
-				$menu['text'],
+				preg_replace('@<(\w+)\b.*?>.*?</\1>@si', '', $menu['text'] ),
 				! empty( $submenu_list_html ) ? '<ul>' . $submenu_list_html . '</ul>' : '<p>' . $empty_submenu_list_html . '</p>'
 			);
 
@@ -703,11 +703,11 @@ EOT;
 			return false;
 		}
 
-		$file_name = 'glck-admin-menu.css';
+		$file_name = 'simplified-admin-menu.css';
 		$file = plugin_dir_path( __FILE__ ) . $file_name;
 
 		wp_register_style(
-			'glck-admin-menu',
+			'simplified-admin-menu',
 			plugin_dir_url( __FILE__ ) . $file_name,
 			[],
 			$this->get_filemtime( $file )

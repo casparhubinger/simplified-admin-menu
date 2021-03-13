@@ -1,9 +1,9 @@
-# _Glück Admin Menu Pot
+# _AdminMenu Pot
 # Copyright 2020 Caspar Hübinger
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: _Glück Admin Menu Pot v0.1.1\n"
+"Project-Id-Version: _AdminMenu Pot v0.1.1\n"
 "POT-Creation-Date: 2020-04-25 23:55+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your Name <you@example.com>\n"
@@ -23,39 +23,39 @@ msgstr ""
 "X-Poedit-Country: UNITED STATES\n"
 "X-Poedit-Bookmarks: \n"
 
-#: glck-admin-menu.php:122
+#: simplified-admin-menu.php:122
 #, php-format
 msgid "Looking for plugin settings? %1$sGo to Plugin Settings%2$s"
 msgstr ""
 
-#: glck-admin-menu.php:239
+#: simplified-admin-menu.php:239
 msgid "Content"
 msgstr ""
 
-#: glck-admin-menu.php:241
+#: simplified-admin-menu.php:241
 msgid "Design"
 msgstr ""
 
-#: glck-admin-menu.php:245
+#: simplified-admin-menu.php:245
 msgid "Setup"
 msgstr ""
 
-#: glck-admin-menu.php:321
+#: simplified-admin-menu.php:321
 msgid "Export Content"
 msgstr ""
 
-#: glck-admin-menu.php:477 glck-admin-menu.php:478 glck-admin-menu.php:534
+#: simplified-admin-menu.php:477 simplified-admin-menu.php:478 simplified-admin-menu.php:534
 msgid "Plugin Settings"
 msgstr ""
 
-#: glck-admin-menu.php:544
+#: simplified-admin-menu.php:544
 #, php-format
 msgid ""
 "Some of the %1$splugins%2$s you’ve activated bring their own settings. "
 "That’s what these are."
 msgstr ""
 
-#: glck-admin-menu.php:590
+#: simplified-admin-menu.php:590
 msgid ""
 "No entries (yet). Try clicking on the link above, perhaps this plugin needs "
 "to be set up properly before menu items appear here."

@@ -64,7 +64,7 @@
 
 🚫 **DO NOT INSTALL THIS without running it on a testing site first!**
 
-Clone this repository to your local machine, or [download the latest release](https://github.com/casparhubinger/glck-admin-menu/releases/latest).
+Clone this repository to your local machine, or [download the latest release](https://github.com/casparhubinger/simplified-admin-menu/releases/latest).
 
 You can install the .zip file like any other plugin via _wp-admin › Plugins › Add New_.
 
