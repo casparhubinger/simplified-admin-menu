@@ -16,7 +16,7 @@ Opionated, heavily simplified, customised admin menu.
 
 ---
 
-![Settings page bundling all third-party plugin menu pages](/docs/screenshot.png)
+![Settings page bundling all third-party plugin menu pages](screenshot.png)
 
 ## 🥁 What is this?
 
