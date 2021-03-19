@@ -2,6 +2,8 @@
 
 Opionated, heavily simplified, customised admin menu.
 
+![Settings page bundling all third-party plugin menu pages](screenshot.png)
+
 
 |                    |                                                         |
 |--------------------|---------------------------------------------------------|
@@ -15,8 +17,6 @@ Opionated, heavily simplified, customised admin menu.
 | Donate link:       | [https://paypal.me/caspar](https://paypal.me/caspar)|
 
 ---
-
-![Settings page bundling all third-party plugin menu pages](screenshot.png)
 
 ## 🥁 What is this?
 
